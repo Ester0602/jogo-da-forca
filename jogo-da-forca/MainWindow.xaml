@@ -9,9 +9,9 @@
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         ResizeMode="NoResize">
-    <Grid>
-        <TextBox x:Name="txtPalavra" HorizontalAlignment="Center" Margin="0,318,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnJogar" Content="Jogar" HorizontalAlignment="Center" Margin="0,341,0,0" VerticalAlignment="Top" Click="IniciarJogo" Visibility="Visible"/>
+    <Grid Background="#FFD17AE0">
+        <TextBox x:Name="txtPalavra" HorizontalAlignment="Center" Margin="0,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Height="20" Foreground="#FF2CDA27"/>
+        <Button x:Name="btnJogar" Content="Jogar" HorizontalAlignment="Center" Margin="0,341,0,0" VerticalAlignment="Top" Click="IniciarJogo" Visibility="Visible" Background="#FF1EC719" FontSize="20" FontFamily="Artifakt Element Heavy" Width="79"/>
         <TextBlock x:Name="txtFrase" HorizontalAlignment="Center" Margin="0,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780" FontSize="36" TextAlignment="Center"/>
         <TextBlock x:Name="txtCabeca" HorizontalAlignment="Left" Margin="377,167,0,0" TextWrapping="Wrap" Text="O" VerticalAlignment="Top" Width="50" Height="50" FontSize="36" TextAlignment="Center" Visibility="Hidden"/>
         <TextBlock x:Name="txtCorpo" HorizontalAlignment="Left" Margin="390,195,0,0" TextWrapping="Wrap" Text="|" VerticalAlignment="Top" Width="24" Height="50" FontSize="36" TextAlignment="Center" Visibility="Hidden"/>
@@ -22,7 +22,7 @@
         <Button x:Name="btnInserirLetra" Content="Informar" HorizontalAlignment="Center" Margin="0,341,0,0" VerticalAlignment="Top" Click="InserirLetra" Visibility="Hidden"/>
         <TextBlock x:Name="txtLetrasErradas" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780" FontSize="36" TextAlignment="Center"/>
         <Button x:Name="btnReiniciarJogo" Content="Reiniciar" HorizontalAlignment="Center" Margin="0,341,0,0" VerticalAlignment="Top" Click="ReiniciarJogo" Width="79" Visibility="Hidden"/>
-        <TextBlock HorizontalAlignment="Left" Margin="69,393,0,0" TextWrapping="Wrap" Text="Para facilitar, não informe palavras compostas e com acento." VerticalAlignment="Top" Width="654" Height="33" TextAlignment="Center" FontSize="20" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="94,393,0,0" TextWrapping="Wrap" Text="Não informe palavras compostas e com acento." VerticalAlignment="Top" Width="654" Height="33" TextAlignment="Center" FontSize="24" FontWeight="Bold" FontFamily="Bahnschrift SemiBold SemiCondensed" Foreground="#FFCC0D0D"/>
         <Button x:Name="btnSair" Content="X" HorizontalAlignment="Left" Margin="765,10,0,0" VerticalAlignment="Top" Width="25" Height="25" Background="Red" Foreground="White" Click="SairDaAplicacao"/>
 
     </Grid>
